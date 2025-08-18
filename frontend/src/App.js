@@ -28,6 +28,7 @@ function App() {
           <Route path="/test-created/:shareToken" element={<TestSuccess />} />
           <Route path="/test/:shareToken" element={<TakeTest />} />
           <Route path="/results/:responseId" element={<TestResults />} />
+          <Route path="/admin" element={<AdminPanel />} />
           <Route path="/admin/*" element={<AdminPanel />} />
         </Routes>
       </BrowserRouter>
